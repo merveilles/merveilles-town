@@ -1,5 +1,8 @@
----
-default: styles/application.scss
+default: styles/merveilles.scss
 hometown-pastel: styles/hometown-pastel.scss
+mastodon-dark: styles/application.scss
+contrast: styles/contrast.scss
+mastodon-light: styles/mastodon-light.scss
 macaron: styles/macaron.scss
 fairy-floss: styles/fairy-floss.scss
+merveilles: styles/merveilles.scss
