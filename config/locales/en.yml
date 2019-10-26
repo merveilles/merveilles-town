@@ -1615,10 +1615,11 @@ en:
     does_not_match_previous_name: does not match the previous name
   themes:
     contrast: Mastodon (High contrast)
-    default: Mastodon (Dark)
+    mastodon-dark: Mastodon (Dark)
     mastodon-light: Mastodon (Light)
     macaron: Macaron (Pastel light)
     fairy-floss: Fairy Floss (Pastel dark)
+    default: Merveilles
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
