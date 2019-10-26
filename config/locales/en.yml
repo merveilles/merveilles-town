@@ -1373,8 +1373,9 @@ en:
     title: "%{instance} Terms of Service and Privacy Policy"
   themes:
     contrast: Mastodon (High contrast)
-    default: Mastodon (Dark)
+    mastodon-dark: Mastodon (Dark)
     mastodon-light: Mastodon (Light)
+    default: Merveilles
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
