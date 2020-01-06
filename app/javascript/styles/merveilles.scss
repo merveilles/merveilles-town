@@ -1610,6 +1610,9 @@ body .muted-hint a {
 .directory__tag a .trends__item__current{
   color: var(--gray-shade-5);
 }
+.directory__tag.active a .trends__item__current{
+  color: var(--white);
+}
 
 .account__header__content, .accounts-table__count small {
   color: var(--gray-shade-9);
