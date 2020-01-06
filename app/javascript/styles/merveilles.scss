@@ -1539,6 +1539,10 @@ body .muted-hint a {
   profile directory
 */
 
+.endorsements-widget h4{
+  color:var(--gray-shade-5);
+}
+
 .filter-form {
   background: var(--gray-shade-2);
 }
@@ -1562,6 +1566,25 @@ body .muted-hint a {
 
 .directory__card__extra .account__header__content {
   border-bottom: 1px solid var(--gray-shade-5);
+}
+
+.directory__tag a {
+  border-color: var(--gray-shade-3);
+  background: var(--gray-shade-2);
+}
+
+.director__tag.active a{
+  background: var(--cyan);
+}
+
+.directory__tag a h4 .fa{
+  color: var(--gray-shade-5);
+}
+.directory__tag a h4 small{
+  color: var(--gray-shade-5);
+}
+.directory__tag a .trends__item__current{
+  color: var(--gray-shade-5);
 }
 
 .account__header__content, .accounts-table__count small {
@@ -1934,7 +1957,7 @@ body .muted-hint a {
 }
 
 /*
-  audio/video player styling 
+  audio/video player styling
 */
 
 .audio-player {
