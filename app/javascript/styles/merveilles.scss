@@ -57,6 +57,7 @@ body {
   overflow: hidden;
   line-height: 15px;
   font-size: 14px;
+  background-color: var(--gray-shade-3);
 }
 
 .column-header>button {
@@ -1426,6 +1427,9 @@ a.status-card:hover {
 
 .admin-wrapper .sidebar-wrapper {
   height: inherit;
+  background: var(--black);
+}
+.admin-wrapper .sidebar-wrapper  .sidebar-wrapper__inner{
   background: var(--black);
 }
 
