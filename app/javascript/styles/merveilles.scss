@@ -1173,6 +1173,20 @@ a.status-card:hover {
   background: var(--gray-shade-1);
 }
 
+/* The two rulesets below address a background color gap
+   at the top of the public profile pages */
+.public-layout div.container{
+  padding-top:10px;
+}
+
+.public-layout div.container nav.header{
+  margin-top: 0px;
+}
+
+.public-layout .header p {
+  color: var(--cyan);
+}
+
 .public-layout .header .nav-button {
   background: var(--gray-shade-2);
 }
@@ -1581,6 +1595,12 @@ body .muted-hint a {
   background: var(--cyan);
 }
 
+.directory__tag a:active,
+.directory__tag a:focus,
+.directory__tag a:hover {
+    background: var(--gray-shade-3);
+}
+
 .directory__tag a h4 .fa{
   color: var(--gray-shade-5);
 }
@@ -1593,14 +1613,6 @@ body .muted-hint a {
 
 .account__header__content, .accounts-table__count small {
   color: var(--gray-shade-9);
-}
-
-.public-layout .header {
-  background: var(--black);
-}
-
-.public-layout .header p {
-  color: var(--cyan);
 }
 
 /*
