@@ -1915,6 +1915,38 @@ body .muted-hint a {
   color: var(--cyan);
 }
 
+/* Announcment Styling */
+
+.announcments {
+  background: var(--gray-shade-3);
+}
+
+img.announcements__mastodon {
+  height: 170px;
+  width: unset;
+  margin-right: -100px;
+}
+
+.announcements__item__content a.unhandled-link {
+  color: var(--cyan);
+}
+
+.reactions-bar__item {
+  background: var(--gray-shade-5);
+}
+
+.reactions-bar .emoji-button:hover {
+  color: var(--gray-shade-e);
+}
+
+.reactions-bar__item:hover {
+  background: var(--gray-shade-4);
+}
+
+.reactions-bar__item__count, .reactions-bar .emoji-button {
+  color: var(--gray-shade-e);
+}
+
 /* DM styling */
 
 .conversation {
