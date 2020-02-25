@@ -1957,6 +1957,14 @@ img.announcements__mastodon {
   background: var(--gray-shade-3);
 }
 
+.conversation--unread {
+  background: var(--gray-shade-1);
+}
+
+.conversation__unread {
+  background: var(--cyan);
+}
+
 .conversation__content__names {
   color: var(--gray-shade-9);
 }
