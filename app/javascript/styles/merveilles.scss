@@ -1869,12 +1869,16 @@ body .muted-hint a {
 }
 
 .flash-message {
-    background: var(--gray-shade-3);
-    color: var(--gray-shade-9);
+  background: var(--gray-shade-3);
+  color: var(--gray-shade-9);
 }
 
 .flash-message .oauth-code {
-    background: var(--gray-shade-3);
+  background: var(--gray-shade-3);
+}
+
+.follow-prompt, .oauth-prompt {
+  color: var(--cyan);
 }
 
 .react-toggle-track-check svg path {
@@ -1969,12 +1973,21 @@ img.announcements__mastodon {
   margin-right: -100px;
 }
 
-.announcements__item__content a.unhandled-link {
+.announcements__item__unread {
+  right: 35px;
   color: var(--cyan);
 }
 
-.reactions-bar__item {
+.announcements__item__content a.unhandled-link, .reactions-bar__item.active .reactions-bar__item__count {
+  color: var(--cyan);
+}
+
+.reactions-bar__item  {
   background: var(--gray-shade-5);
+}
+
+.reactions-bar__item.active {
+  background-color: var(--gray-shade-5);
 }
 
 .reactions-bar .emoji-button:hover {
