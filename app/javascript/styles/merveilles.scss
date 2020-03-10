@@ -52,6 +52,11 @@ body {
   text-decoration: underline;
 }
 
+.link-button:disabled {
+  color: var(--gray-shade-8);
+  text-decoration: line-through;
+}
+
 .column-header {
   height: 45px;
   overflow: hidden;
