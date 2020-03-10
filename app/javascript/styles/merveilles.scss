@@ -2058,7 +2058,7 @@ img.announcements__mastodon {
   border-top: 1px solid var(--black);
 }
 
-.video-player__volume__handle {
+.video-player__seek__progress, .video-player__seek__handle, .video-player__volume__handle {
   background: var(--cyan);
 }
 
