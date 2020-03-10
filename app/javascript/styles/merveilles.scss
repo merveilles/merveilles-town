@@ -231,6 +231,14 @@ body {
   border-color: transparent transparent var(--gray-shade-2);
 }
 
+.icon-button:active, .icon-button:focus, .icon-button:hover {
+  background-color: unset;
+}
+
+.icon-button.inverted:active, .icon-button.inverted:focus, .icon-button.inverted:hover {
+  background-color: var(--gray-shade-3);
+}
+
 .star-icon .icon-button:hover {
   color: var(--white) !important;
   cursor: pointer;
