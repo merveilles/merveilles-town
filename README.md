@@ -8,7 +8,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/tootsuite/mastodon.svg)][docker]
 
 [releases]: https://github.com/tootsuite/mastodon/releases
-[circleci]: https://circleci.com/gh/tootsuite/mastodon
+[circleci]: https://circleci.com/gh/merveilles/merveilles-town
 [code_climate]: https://codeclimate.com/github/tootsuite/mastodon
 [crowdin]: https://crowdin.com/project/mastodon
 [docker]: https://hub.docker.com/r/tootsuite/mastodon/
