@@ -6,6 +6,7 @@
 :root {
   --black: #000;
   --gray-shade-1: #111;
+  --gray-shade-1-5: #1a1a1a;
   --gray-shade-2: #222;
   --gray-shade-3: #333;
   --gray-shade-4: #444;
@@ -19,6 +20,7 @@
   --gray-shade-e: #eee;
   --white: #fff;
   --cyan: #72dec2;
+  --cyan-light: #9ffce3;
 }
 
 html {
@@ -34,13 +36,12 @@ body {
 }
 
 .button {
-  background: var(--cyan) !important;
+  background: var(--cyan);
   color: var(--gray-shade-3);
 }
 
 .button:hover {
-  background: var(--cyan);
-  color: var(--gray-shade-e);
+  background: var(--cyan-light);
 }
 
 .app-holder > div {
@@ -50,6 +51,15 @@ body {
 .link-button {
   color: var(--cyan);
   text-decoration: underline;
+}
+
+.rich-formatting strong {
+  color: var(--gray-shade-e);
+}
+
+.nothing-here {
+  background-color: var(--gray-shade-2);
+  color: var(--gray-shade-a);
 }
 
 .column-header {
@@ -561,7 +571,6 @@ a.floating-action-button:hover,
 }
 
 .drawer__header {
-  margin-bottom: 0;
   background: var(--gray-shade-3);
   height: 45px;
 }
@@ -588,10 +597,6 @@ a.floating-action-button:hover,
 
 .drawer__inner__mastodon {
   display: none;
-}
-
-.search {
-  margin-bottom: 0;
 }
 
 .search__input {
@@ -1085,10 +1090,6 @@ a.status-card:hover {
   border-bottom: 2px solid var(--cyan);
 }
 
-.navigation-bar {
-  background-color: var(--gray-shade-3);
-}
-
 .navigation-bar .navigation-bar__profile-account {
   color: var(--white);
 }
@@ -1178,8 +1179,36 @@ a.status-card:hover {
   background: var(--gray-shade-1);
 }
 
+/* extended description page */
+
+.contact-widget h4 {
+  color: var(--gray-shade-a);
+}
+
+.contact-widget > a {
+  color: var(--gray-shade-a);
+}
+
+.table-of-contents {
+  background: var(--gray-shade-2);
+}
+
+.table-of-contents li a {
+  border-bottom-color: var(--gray-shade-3);
+}
+
+/* public facing header nav */
+
 .public-layout .header {
-  background: var(--gray-shade-1);
+  background: var(--gray-shade-2);
+}
+
+.public-layout .header .brand:hover{
+  background: var(--gray-shade-4);
+}
+
+.public-layout .header .nav-link {
+  color: var(--gray-shade-c);
 }
 
 /* The two rulesets below address a background color gap
@@ -1197,12 +1226,23 @@ a.status-card:hover {
 }
 
 .public-layout .header .nav-button {
-  background: var(--gray-shade-2);
+  background: var(--gray-shade-3);
+  color: var(--gray-shade-c);
 }
 
 .public-layout .header .nav-button:hover {
   color: var(--cyan);
-  background: var(--gray-shade-3);
+  background: var(--gray-shade-4);
+}
+
+/* other public pages */
+
+.page-header {
+  background: var(--gray-shade-2);
+}
+
+.page-header p {
+  color: var(--gray-shade-a);
 }
 
 .public-layout .public-account-header {
@@ -1299,6 +1339,10 @@ a.status-card:hover {
   background: var(--gray-shade-3);
 }
 
+.button.logo-button:hover {
+  background: var(--cyan);
+}
+
 .public-layout .hero-widget__text {
   color: var(--white);
   background: var(--gray-shade-2);
@@ -1387,6 +1431,15 @@ a.status-card:hover {
   color: var(--white);
 }
 
+.public-layout .box-widget .rich-formatting table th {
+  color: var(--gray-shade-9);
+}
+
+.public-layout .box-widget .rich-formatting table tr {
+  border-bottom-color: var(--gray-shade-3);
+  color: var(--gray-shade-c);
+}
+
 .public-layout .contact-widget,
 .public-layout .landing-page__information.contact-widget {
   color: var(--white);
@@ -1436,6 +1489,10 @@ a.status-card:hover {
 /*
   settings sidebar
 */
+
+.admin-wrapper .content-heading {
+  border-bottom-color: var(--gray-shade-1);
+}
 
 .admin-wrapper .quick-nav a {
   color: var(--white);
@@ -1493,32 +1550,30 @@ a.status-card:hover {
   background: var(--gray-shade-2);
 }
 
-.admin-wrapper .simple_form button,
-.admin-wrapper .simple_form button:hover {
-  background: var(--gray-shade-5);
+.admin-wrapper .simple_form button {
+  background: var(--cyan);
+  color: var(--gray-shade-3);
 }
 
 .admin-wrapper .simple_form button:hover {
-  color: var(--cyan);
+  background: var(--cyan-light);
 }
 
 .admin-wrapper .simple_form .block-button {
-  color: var(--white);
-  background: var(--gray-shade-5);
+  color: var(--gray-shade-3);
+  background: var(--cyan);
 }
 
 .admin-wrapper .simple_form .block-button:hover {
-  color: var(--cyan);
-  background: var(--gray-shade-5);
+  background: var(--cyan-light);
 }
 
 .admin-wrapper a.button {
-  background: var(--gray-shade-5);
+  background: var(--cyan);
 }
 
 .admin-wrapper a.button:hover {
-  color: var(--white);
-  background: var(--gray-shade-5);
+  background: var(--cyan-light);
 }
 
 .admin-wrapper .table > tbody > tr:nth-child(odd) > td,
@@ -1659,6 +1714,10 @@ body .muted-hint a {
   color: var(--cyan);
 }
 
+.card__img {
+  background: var(--gray-shade-1);
+}
+
 /*
   landing page
 */
@@ -1747,8 +1806,16 @@ body .muted-hint a {
 }
 
 .simple_form button {
-  background: var(--cyan) !important;
+  background: var(--cyan);
   color: var(--gray-shade-2);
+}
+
+.simple_form button:hover {
+  background: var(--cyan-light);
+}
+
+.simple_form select {
+  background-color: var(--gray-shade-1);
 }
 
 .simple_form .input.boolean label a {
@@ -1778,7 +1845,12 @@ body .muted-hint a {
 }
 
 .button.button-primary {
+  background: var(--cyan);
   color: var(--gray-shade-2);
+}
+
+.button.button-primary:hover {
+  background: var(--cyan-light);
 }
 
 .button.button-secondary {
@@ -1786,11 +1858,32 @@ body .muted-hint a {
   border: 1px solid var(--gray-shade-2);
 }
 
+.button.button-secondary:hover {
+  color: var(--gray-shade-4);
+  border: 1px solid var(--gray-shade-3);
+}
+
 .button.button-secondary:active,
 .button.button-secondary:focus,
 .button.button-secondary:hover {
   color: var(--gray-shade-6);
   border: 1px solid var(--gray-shade-2);
+}
+
+.simple_form input[type=text],
+.simple_form input[type=number],
+.simple_form input[type=email],
+.simple_form input[type=password],
+.simple_form textarea {
+  background: var(--gray-shade-1);
+}
+
+.simple_form input[type=text]::placeholder,
+.simple_form input[type=number]::placeholder,
+.simple_form input[type=email]::placeholder,
+.simple_form input[type=password]::placeholder,
+.simple_form textarea::placeholder {
+  color: var(--gray-shade-7);
 }
 
 .simple_form input[type="text"]:focus,
@@ -1809,6 +1902,7 @@ body .muted-hint a {
 .simple_form input[type="password"]:required:valid,
 .simple_form input[type="text"]:required:valid,
 .simple_form textarea:required:valid {
+  background: var(--gray-shade-1);
   border-color: var(--cyan);
 }
 
@@ -1996,6 +2090,14 @@ body .muted-hint a {
   background: var(--gray-shade-3);
 }
 
+.announcements__item__unread {
+  background: var(--cyan);
+}
+
+.announcements__pagination {
+  color: var(--gray-shade-a);
+}
+
 img.announcements__mastodon {
   height: 170px;
   width: unset;
@@ -2087,5 +2189,83 @@ img.announcements__mastodon {
 }
 
 /*
-  settings & dashboard styles
+  settings & dashboard styles, tables
 */
+
+.neutral-hint,
+.admin-wrapper .content .neutral-hint {
+  color: var(--gray-shade-6);
+}
+
+.announcements-list {
+  border: 1px solid var(--black);
+  overflow: hidden;
+  position: relative;
+}
+
+.announcements-list__item {
+  background: var(--gray-shade-3);
+  border-bottom: 1px solid var(--black);
+}
+
+.announcements-list__item__meta {
+  color: var(--gray-shade-7);
+}
+
+button.table-action-link,
+a.table-action-link {
+  color: var(--gray-shade-a);
+}
+
+.batch-table__toolbar {
+  background-color: var(--gray-shade-1);
+  border-color: var(--black);
+  color: var(--gray-shade-a);
+}
+
+.batch-table__body,
+.batch-table .nothing-here {
+  background-color: var(--gray-shade-1);
+  color: var(--gray-shade-a);
+}
+
+.batch-table__row {
+  background: var(--gray-shade-1-5);
+  border-color: var(--black);
+}
+
+.batch-table__row:hover {
+  background: var(--gray-shade-3);
+}
+
+.batch-table__row:nth-child(even) {
+  background: var(--gray-shade-1);
+}
+
+.filters .filter-subset a {
+  border-bottom-color: var(--gray-shade-4);
+  color: var(--gray-shade-a);
+}
+
+.filters .filter-subset a:hover {
+  border-bottom-color: var(--gray-shade-4);
+  color: var(--gray-shade-c);
+}
+
+.filters .filter-subset a.selected {
+  border-bottom-color: var(--cyan);
+  color: var(--cyan);
+}
+
+.dashboard__counters > div > a,
+.dashboard__counters > div > div {
+  background: var(--gray-shade-3);
+}
+
+.dashboard__counters > div > a:hover {
+  background: var(--gray-shade-5);
+}
+
+.dashboard__counters__label {
+  color: var(--gray-shade-a);
+}
