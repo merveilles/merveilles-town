@@ -585,10 +585,6 @@ a.floating-action-button:hover,
 
 .drawer__inner {
   background-color: var(--gray-shade-3);
-  background-image: url("https://assets.merveilles.town/site_uploads/files/000/000/002/original/hero.png"); // sass-lint:disable-line no-url-domains, no-url-protocols
-  background-size: 440px;
-  background-repeat: no-repeat;
-  background-position: left bottom;
 }
 
 .drawer__inner.darker {
@@ -596,7 +592,7 @@ a.floating-action-button:hover,
 }
 
 .drawer__inner__mastodon {
-  display: none;
+  background: none;
 }
 
 .search__input {
@@ -1219,7 +1215,7 @@ a.status-card:hover {
   background: var(--gray-shade-2);
 }
 
-.public-layout .header .brand:hover{
+.public-layout .header .brand:hover {
   background: var(--gray-shade-4);
 }
 
@@ -1676,6 +1672,10 @@ body .muted-hint a {
   border-bottom: 1px solid var(--gray-shade-5);
 }
 
+.directory__card__bar .display-name span {
+  color: var(--gray-shade-a);
+}
+
 .directory__tag a {
   border-color: var(--gray-shade-3);
   background: var(--gray-shade-2);
@@ -2114,12 +2114,6 @@ body .muted-hint a {
   color: var(--gray-shade-a);
 }
 
-img.announcements__mastodon {
-  height: 170px;
-  width: unset;
-  margin-right: -100px;
-}
-
 .announcements__item__content a.unhandled-link {
   color: var(--cyan);
 }
@@ -2202,6 +2196,19 @@ img.announcements__mastodon {
 
 .video-player__volume__current {
   background: var(--cyan);
+}
+
+/*
+  list-adder
+*/
+.list-adder,
+.list-adder__account,
+.list-adder__lists {
+  background: var(--gray-shade-2);
+}
+
+.list-adder .list {
+  border-bottom-color: var(--gray-shade-3);
 }
 
 /*
