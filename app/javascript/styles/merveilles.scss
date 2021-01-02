@@ -495,13 +495,11 @@ a.floating-action-button:hover,
 .status__action-bar-button {
   margin-right: 5px !important;
   border-radius: 3px;
-  width: 20px !important;
   height: 20px !important;
 }
 
 .status__action-bar-button > * {
   display: block;
-  width: 20px !important;
   height: 20px !important;
   margin-top: 0 !important;
   background-position: center center !important;
@@ -848,8 +846,8 @@ a.status-card:hover {
   display: inline-block;
 }
 
-.icon-button i.fa-reply:hover,
-.icon-button i.fa-reply-all:hover {
+.icon-button:hover i.fa-reply,
+.icon-button:hover i.fa-reply-all {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L18,11 L11,18 L4,11 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
@@ -866,7 +864,7 @@ a.status-card:hover {
   display: none;
 }
 
-.icon-button i.fa-star:hover {
+.icon-button:hover i.fa-star {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,5 L18,18 L4,18 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
@@ -889,7 +887,7 @@ a.status-card:hover {
   display: none;
 }
 
-.icon-button i.fa-lock:hover {
+.icon-button:hover i.fa-lock {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5,5 L17,17 M17,5 L5,17' stroke='%23f00' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
@@ -904,7 +902,7 @@ a.status-card:hover {
   display: none;
 }
 
-.icon-button i.fa-envelope:hover {
+.icon-button:hover i.fa-envelope {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5,5 L17,17 M17,5 L5,17' stroke='%23f00' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
@@ -923,7 +921,7 @@ a.status-card:hover {
   display: none;
 }
 
-.icon-button i.fa-ellipsis-h:hover {
+.icon-button:hover i.fa-ellipsis-h {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L11,18 M4,4 L 4,18 M18,4 L18,18' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round'/></svg>");
 }
 
@@ -935,7 +933,7 @@ a.status-card:hover {
   display: none;
 }
 
-.icon-button i.fa-retweet:hover {
+.icon-button:hover i.fa-retweet {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23FFFFFF' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;
 }
 
@@ -951,7 +949,7 @@ a.status-card:hover {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,9 A2,2 0 0,0 9,11 A2,2 0 0,0 11,13 A2,2 0 0,0 13,11 A2,2 0 0,0 11,9' stroke='%23555' fill='%23555' stroke-width='0.4' stroke-linecap='round' stroke-linejoin='round'/><path d='M9,5 L9,5 L5,9 L5,13 L9,17 L13,17 L17,13 L17,9 L13,5 L9,5' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
-.icon-button i.fa-share-alt:hover {
+.icon-button:hover i.fa-share-alt {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,9 A2,2 0 0,0 9,11 A2,2 0 0,0 11,13 A2,2 0 0,0 13,11 A2,2 0 0,0 11,9' stroke='%23555' fill='%23fff' stroke-width='0.4' stroke-linecap='round' stroke-linejoin='round'/><path d='M9,5 L9,5 L5,9 L5,13 L9,17 L13,17 L17,13 L17,9 L13,5 L9,5' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
@@ -963,7 +961,7 @@ a.status-card:hover {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5.027,3.984L17.002,3.984L17,17.004L11.004,13.985L5.01,17.003L5.027,3.984Z' fill='none' stroke='%2372DEC2' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
-.icon-button i.fa-bookmark:hover {
+.icon-button:hover i.fa-bookmark {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5.027,3.984L17.002,3.984L17,17.004L11.004,13.985L5.01,17.003L5.027,3.984Z' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
