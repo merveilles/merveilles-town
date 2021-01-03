@@ -1030,6 +1030,10 @@ a.status-card:hover {
   color: var(--gray-shade-6);
 }
 
+.getting-started__wrapper .navigation-bar {
+  background-color: var(--gray-shade-2);
+}
+
 .column-subheading {
   background: var(--gray-shade-2);
   color: var(--gray-shade-6);
@@ -1064,6 +1068,10 @@ a.status-card:hover {
   background: none;
   height: 45px;
   overflow: hidden;
+}
+
+.tabs-bar__wrapper {
+  background-color: transparent;
 }
 
 .tabs-bar__link {
@@ -1521,6 +1529,20 @@ a.status-card:hover {
   color: var(--cyan);
 }
 
+.admin-wrapper .sidebar__toggle {
+  background-color: var(--gray-shade-3);
+
+  a:hover {
+    background-color: var(--gray-shade-4);
+  }
+}
+
+.admin-wrapper .sidebar__toggle__icon {
+  & > i {
+    color: var(--gray-shade-a);
+  }
+}
+
 .admin-wrapper .sidebar-wrapper {
   height: inherit;
   background: var(--black);
@@ -1927,6 +1949,18 @@ body .muted-hint a {
 .simple_form textarea:required:valid {
   background: var(--gray-shade-1);
   border-color: var(--cyan);
+}
+
+.poll .button.button-secondary:disabled {
+  background-color: var(--cyan);
+  cursor: pointer;
+  opacity: .5;
+}
+
+.poll .button.button-secondary {
+  background-color: var(--cyan);
+  cursor: pointer;
+  opacity: 1;
 }
 
 .poll__input {
