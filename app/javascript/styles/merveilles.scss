@@ -256,6 +256,11 @@ body {
   color: var(--cyan) !important;
 }
 
+.notification.unread:before,
+.status__wrapper.unread:before {
+  border-color: var(--cyan) !important;
+}
+
 .status {
   border-bottom: 1px solid var(--gray-shade-3) !important;
 }
