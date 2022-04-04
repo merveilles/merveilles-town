@@ -1,3 +1,7 @@
-patreon: mastodon
-open_collective: mastodon
-github: [Gargron]
+# Linking to Merveilles funding, Mastodon funding, & dariusk from Hometown
+patreon: merveillestown
+open_collective: merveilles
+ko_fi: merveillestown
+liberapay: merveilles
+github: [Gargron, dariusk]
+custom: ['https://www.patreon.com/mastodon', 'https://opencollective.com/mastodon', 'https://www.patreon.com/tinysubversions']
