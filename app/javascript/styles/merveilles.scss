@@ -2334,3 +2334,106 @@ a.table-action-link {
 .dashboard__counters__label {
   color: var(--gray-shade-a);
 }
+
+.account__header__bio .account__header__fields {
+  border-top: 1px solid var(--gray-shade-3);
+}
+
+.account__header__bio .account__header__joined {
+  color: var(--gray-shade-8);
+}
+
+.simple_form .hint a {
+  color: var(--cyan);
+}
+
+.simple_form .input.boolean label.checkbox {
+  accent-color: var(--cyan);
+}
+
+.announcements-list, .applications-list__item {
+  border: 1px solid var(--gray-shade-5);
+}
+
+.applications-list__item {
+  background: var(--gray-shade-1-5);
+}
+
+.permissions-list__item__text__type {
+  color: var(--cyan-light);
+}
+
+.announcements-list__item__title {
+  color: var(--gray-shade-c);
+}
+
+.permissions-list__item {
+  color: var(--gray-shade-e);
+  border-bottom: 1px solid var(--gray-shade-5);
+  
+}
+
+.empty-column-indicator, .error-column, .follow_requests-unlocked_explanation {
+  color: var(--gray-shade-e);
+}
+
+.empty-column-indicator a, .error-column a, .follow_requests-unlocked_explanation a {
+  color: var(--cyan);
+}
+
+.scrollable .account-card {
+  background: var(--gray-shade-1);
+}
+
+.scrollable .account-card__bio::after {
+  background: linear-gradient(270deg,var(--gray-shade-1),transparent);
+}
+
+.account-card__bio a {
+  color: var(--gray-shade-c);
+  
+}
+
+.account-card__counters__item small {
+  color: var(--gray-shade-c);
+}
+
+.keyboard-shortcuts kbd {
+  background-color: var(--black);
+  border: 1px solid var(--cyan);
+}
+
+.permissions-list__item {
+  color: var(--white);
+  border-bottom: 1px solid var(--gray-shade-5);
+}
+
+.permissions-list__item:last-child {
+  padding-bottom: 12px;
+}
+
+.permissions-list__item__text__type {
+  color: var(--cyan);
+}
+
+.oauth-prompt p {
+  color: var(--gray-shade-e);
+}
+
+.follow-prompt strong, .oauth-prompt strong {
+  color: var(--cyan);}
+
+.oauth-prompt h3 {
+  color: var(--gray-shade-e);
+}
+
+.oauth-prompt .permissions-list {
+  border: 1px solid var(--gray-shade-5);
+  background: var(--gray-shade-5);
+}
+
+.account-header .name {
+  flex: 1 1 auto;
+  color: var(--gray-shade-e);
+  width: calc(100% - 90px);
+}
