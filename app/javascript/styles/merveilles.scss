@@ -2451,3 +2451,20 @@ a.table-action-link {
 .follow_requests-unlocked_explanation {
   background: var(--gray-shade-1);
 }
+
+.account__header__account-note label {
+  color: var(--gray-shade-a)
+}
+
+.account__header__account-note textarea {
+  border: 2px solid var(--gray-shade-4);
+}
+
+.account__header__account-note textarea::placeholder {
+  color: var(--gray-shade-a);
+  opacity: 1;
+}
+
+.account__header__account-note textarea:focus {
+  background: var(--gray-shade-1);
+}
