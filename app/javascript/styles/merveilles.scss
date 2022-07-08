@@ -2433,7 +2433,17 @@ a.table-action-link {
 }
 
 .account-header .name {
-  flex: 1 1 auto;
   color: var(--gray-shade-e);
-  width: calc(100% - 90px);
+}
+
+.upload-progress__tracker {
+  background: var(--cyan);
+}
+
+.upload-progress__backdrop {
+  background: var(--gray-shade-2);
+}
+
+.simple_form .input.radio_buttons .radio {
+  accent-color: var(--cyan);
 }
