@@ -1317,6 +1317,9 @@ a.status-card:hover {
 .account__header .account__header__fields dt {
   color: var(--white);
   background: var(--gray-shade-2);
+  .verified {
+    background: none;
+  }
 }
 
 .public-layout .public-account-bio .account__header__fields dd,
