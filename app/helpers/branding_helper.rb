@@ -26,9 +26,9 @@ module BrandingHelper
     path = begin
       case version
       when :icon
-        'logo-symbol-icon.svg'
+        'merveilles-logo-symbol-icon.svg'
       when :wordmark
-        'logo-symbol-wordmark.svg'
+        'merveilles-logo-symbol-wordmark.svg'
       end
     end
 
