@@ -20,10 +20,10 @@ namespace :branding do
     end
 
     # Displayed size is 34px, at 3x it's 102px
-    rsvg_convert.run(input: Rails.root.join('app', 'javascript', 'images', 'logo-symbol-wordmark.svg'), size: 102, output: output_dest.join('wordmark.png'))
+    rsvg_convert.run(input: Rails.root.join('app', 'javascript', 'images', 'merveilles-logo-symbol-wordmark.svg'), size: 102, output: output_dest.join('wordmark.png'))
 
     # Displayed size is 24px, at 3x it's 72px
-    rsvg_convert.run(input: Rails.root.join('app', 'javascript', 'images', 'logo-symbol-icon.svg'), size: 72, output: output_dest.join('logo.png'))
+    rsvg_convert.run(input: Rails.root.join('app', 'javascript', 'images', 'merveilles-logo-symbol-icon.svg'), size: 72, output: output_dest.join('logo.png'))
   end
 
   desc 'Generate light/dark logotypes for GitHub'
@@ -31,14 +31,14 @@ namespace :branding do
     rsvg_convert = Terrapin::CommandLine.new('rsvg-convert', '--stylesheet :stylesheet -h :size --keep-aspect-ratio :input -o :output')
     output_dest  = Rails.root.join('lib', 'assets')
 
-    rsvg_convert.run(stylesheet: Rails.root.join('lib', 'assets', 'wordmark.dark.css'), input: Rails.root.join('app', 'javascript', 'images', 'logo-symbol-wordmark.svg'), size: 102, output: output_dest.join('wordmark.dark.png'))
-    rsvg_convert.run(stylesheet: Rails.root.join('lib', 'assets', 'wordmark.light.css'), input: Rails.root.join('app', 'javascript', 'images', 'logo-symbol-wordmark.svg'), size: 102, output: output_dest.join('wordmark.light.png'))
+    rsvg_convert.run(stylesheet: Rails.root.join('lib', 'assets', 'wordmark.dark.css'), input: Rails.root.join('app', 'javascript', 'images', 'merveilles-logo-symbol-wordmark.svg'), size: 102, output: output_dest.join('wordmark.dark.png'))
+    rsvg_convert.run(stylesheet: Rails.root.join('lib', 'assets', 'wordmark.light.css'), input: Rails.root.join('app', 'javascript', 'images', 'merveilles-logo-symbol-wordmark.svg'), size: 102, output: output_dest.join('wordmark.light.png'))
   end
 
   desc 'Generate favicons and app icons from SVG source files'
   task generate_app_icons: :environment do
-    favicon_source  = Rails.root.join('app', 'javascript', 'images', 'hometown.svg')
-    app_icon_source = Rails.root.join('app', 'javascript', 'images', 'hometown-icon.svg')
+    favicon_source  = Rails.root.join('app', 'javascript', 'images', 'merveilles-icon.svg')
+    app_icon_source = Rails.root.join('app', 'javascript', 'images', 'merveilles-logo.svg')
     output_dest     = Rails.root.join('app', 'javascript', 'icons')
 
     rsvg_convert = Terrapin::CommandLine.new('rsvg-convert', '-w :size -h :size --keep-aspect-ratio :input -o :output')
@@ -67,7 +67,7 @@ namespace :branding do
   desc 'Generate badge icon from SVG source files'
   task generate_app_badge: :environment do
     rsvg_convert = Terrapin::CommandLine.new('rsvg-convert', '--stylesheet :stylesheet -w :size -h :size --keep-aspect-ratio :input -o :output')
-    badge_source = Rails.root.join('app', 'javascript', 'images', 'logo-symbol-icon.svg')
+    badge_source = Rails.root.join('app', 'javascript', 'images', 'merveilles-logo-symbol-icon.svg')
     output_dest  = Rails.public_path
     stylesheet   = Rails.root.join('lib', 'assets', 'wordmark.light.css')
 
