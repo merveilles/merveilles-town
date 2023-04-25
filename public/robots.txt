@@ -3,6 +3,9 @@
 User-agent: GPTBot
 Disallow: /
 
+User-agent: CCBot
+Disallow: /
+
 User-agent: *
 Disallow: /media_proxy/
 Disallow: /interact/
