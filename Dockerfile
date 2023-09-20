@@ -19,6 +19,7 @@ RUN ARCH= && \
   esac && \
     echo "Etc/UTC" > /etc/localtime && \
 	apt-get update && \
+	apt-get -yq dist-upgrade && \
 	apt-get install -y --no-install-recommends ca-certificates wget python3 apt-utils && \
 	cd ~ && \
 	wget -q https://nodejs.org/download/release/v$NODE_VER/node-v$NODE_VER-linux-$ARCH.tar.gz && \
@@ -46,7 +47,7 @@ RUN apt-get update && \
 
 ENV PATH="${PATH}:/opt/ruby/bin:/opt/node/bin"
 
-RUN npm install -g npm@latest && \
+RUN npm install -g npm@9 && \
 	npm install -g yarn && \
 	gem install bundler && \
 	apt-get update && \
