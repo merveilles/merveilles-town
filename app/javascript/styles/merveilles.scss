@@ -2468,3 +2468,9 @@ a.table-action-link {
 .account__header__account-note textarea:focus {
   background: var(--gray-shade-1);
 }
+
+.account__header__bio .account__header__fields .verified a, 
+.account__header__bio .account__header__fields .verified dd, 
+.account__header__bio .account__header__fields .verified dt {
+  color: var(--cyan);
+}
