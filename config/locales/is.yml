@@ -2199,7 +2199,7 @@ is:
     review_link: Yfirfara þjónustuskilmála
     title: Þjónustuskilmálar eru að breytast á %{domain}
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d. %b, %Y, %H:%M"

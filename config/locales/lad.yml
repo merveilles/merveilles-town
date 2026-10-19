@@ -1876,7 +1876,7 @@ lad:
   terms_of_service:
     title: Terminos de servisyo
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d de %b del %Y, %H:%M"

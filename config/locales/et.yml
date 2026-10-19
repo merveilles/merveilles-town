@@ -2194,7 +2194,7 @@ et:
     review_link: Vaata üle kasutustingimused
     title: "%{domain} saidi kasutustingimused muutuvad"
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d. %B, %Y. aastal, kell %H:%M"

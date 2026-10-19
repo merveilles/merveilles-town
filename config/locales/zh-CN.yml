@@ -2146,7 +2146,7 @@ zh-CN:
     review_link: 查看服务条款
     title: "%{domain} 更新了服务条款"
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%Y年%m月%d日 %H:%M"

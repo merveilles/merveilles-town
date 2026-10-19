@@ -2174,7 +2174,7 @@ sq:
     review_link: Shqyrtoni termat e shërbimit
     title: Termat e shërbimit të %{domain} po ndryshojnë
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d %b, %Y, %H:%M"

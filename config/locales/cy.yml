@@ -2386,7 +2386,7 @@ cy:
     review_link: Darllen y telerau gwasanaeth
     title: Mae telerau gwasanaeth %{domain} yn newid
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%b %d, %Y, %H:%M"

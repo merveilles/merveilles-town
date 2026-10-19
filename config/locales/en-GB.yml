@@ -2061,7 +2061,7 @@ en-GB:
     review_link: Review terms of service
     title: The terms of service of %{domain} are changing
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
