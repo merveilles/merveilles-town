@@ -49,14 +49,13 @@
   // Brand
   --color-bg-brand-base: var(--merveilles-cyan);
   --color-bg-brand-base-hover: var(--merveilles-cyan-light);
-  --color-bg-brand-soft: var(----merveilles-cyan-soft);
+  --color-bg-brand-soft: var(--merveilles-cyan-soft);
   --color-bg-brand-softest: var(--merveilles-cyan-softest);
 
   // BORDER
   --color-border-primary: var(--merveilles-gray-shade-3);
   --color-border-brand: var(--merveilles-cyan);
   --color-border-brand-soft: var(--merveilles-cyan-soft);
-
 }
 
 [data-color-scheme='light'] {
@@ -111,7 +110,7 @@
   // Brand
   --color-bg-brand-base: var(--merveilles-cyan-dark);
   --color-bg-brand-base-hover: var(--merveilles-cyan);
-  --color-bg-brand-soft: var(----merveilles-cyan-soft);
+  --color-bg-brand-soft: var(--merveilles-cyan-soft);
   --color-bg-brand-softest: var(--merveilles-cyan-softest);
 
   // BORDER
