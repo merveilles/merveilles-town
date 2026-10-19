@@ -1,6 +1,6 @@
 ---
 default: styles/merveilles.scss
-mastodon-default: styles/application.scss
+mastodon: styles/application.scss
 hometown-pastel: styles/hometown-pastel.scss
 macaron: styles/macaron.scss
 fairy-floss: styles/fairy-floss.scss
