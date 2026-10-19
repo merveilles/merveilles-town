@@ -2195,7 +2195,7 @@ hu:
     review_link: Felhasználási feltételek áttekintése
     title: A(z) %{domain} felhasználási feltételei megváltoznak
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%Y. %b %d., %H:%M"

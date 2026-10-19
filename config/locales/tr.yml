@@ -2195,7 +2195,7 @@ tr:
     review_link: Hizmet şartlarını incele
     title: "%{domain} adresindeki hizmet şartları değişiyor"
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d %b %Y %H:%M"

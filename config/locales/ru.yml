@@ -2191,7 +2191,7 @@ ru:
     review_link: Посмотреть пользовательское соглашение
     title: Изменяется пользовательское соглашение на сервере %{domain}
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d %b %Y, %H:%M"

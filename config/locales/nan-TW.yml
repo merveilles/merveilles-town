@@ -2141,7 +2141,7 @@ nan-TW:
     review_link: 讀更新ê規定
     title: "%{domain} ê服務規定teh改變"
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%Y 年 %b 月 %d 日 %H:%M"

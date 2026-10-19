@@ -2192,7 +2192,7 @@ fr:
     review_link: Vérifier les conditions d'utilisation
     title: Les conditions d'utilisation de %{domain} ont changées
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d %b %Y, %H:%M"

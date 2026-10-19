@@ -2288,7 +2288,7 @@ gd:
     review_link: Dèan lèirmheas air teirmichean na seirbheise
     title: Tha teirmichean na seirbheise aig %{domain} gu bhith atharrachadh
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d %b %Y, %H:%M"

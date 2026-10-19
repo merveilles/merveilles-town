@@ -2150,7 +2150,7 @@ zh-TW:
     review_link: 檢視服務條款
     title: "%{domain} 之服務條款正在悄悄發生變化"
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%Y 年 %b %d 日 %H:%M"
