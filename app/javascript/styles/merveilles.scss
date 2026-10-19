@@ -1,0 +1,121 @@
+@use 'application';
+
+[data-color-scheme='dark'] {
+  --merveilles-black: #000;
+  --merveilles-gray-shade-1: #111;
+  --merveilles-gray-shade-1-5: #1a1a1a;
+  --merveilles-gray-shade-2: #222;
+  --merveilles-gray-shade-3: #333;
+  --merveilles-gray-shade-4: #444;
+  --merveilles-gray-shade-5: #555;
+  --merveilles-gray-shade-6: #666;
+  --merveilles-gray-shade-7: #777;
+  --merveilles-gray-shade-8: #888;
+  --merveilles-gray-shade-9: #999;
+  --merveilles-gray-shade-a: #aaa;
+  --merveilles-gray-shade-c: #ccc;
+  --merveilles-gray-shade-e: #eee;
+  --merveilles-white: #fff;
+  --merveilles-cyan: #72dec2;
+  --merveilles-cyan-light: #9ffce3;
+  --merveilles-cyan-soft: #417f6e;
+  --merveilles-cyan-softest: #203f37;
+
+  // TEXT
+  --color-text-primary: var(--merveilles-white);
+  --color-text-secondary: var(--merveilles-gray-shade-e);
+  --color-text-tertiary: var(--merveilles-gray-shade-c);
+  --color-text-inverted: var(--merveilles-black);
+  --color-text-brand: var(--merveilles-cyan);
+  --color-text-brand-soft: var(--merveilles-cyan-light);
+  --color-text-on-brand-base: var(--merveilles-black);
+  --color-text-brand-on-inverted: var(--merveilles-white);
+  --color-text-disabled: var(--merveilles-gray-shade-a);
+  --color-text-on-disabled: var(--merveilles-gray-shade-8);
+  --color-text-bookmark-highlight: var(--merveilles-cyan);
+  --color-text-favourite-highlight: var(--merveilles-cyan);
+  --color-text-status-links: var(--merveilles-cyan);
+
+  // BACKGROUND
+  // Neutral
+  --color-bg-primary: var(--merveilles-black);
+  --color-bg-secondary: var(--merveilles-gray-shade-1-5);
+  --color-bg-tertiary: var(--merveilles-gray-shade-3);
+
+  // Utility
+  --color-bg-inverted: var(--merveilles-white);
+  --color-bg-disabled: var(--merveilles-gray-shade-5);
+
+  // Brand
+  --color-bg-brand-base: var(--merveilles-cyan);
+  --color-bg-brand-base-hover: var(--merveilles-cyan-light);
+  --color-bg-brand-soft: var(----merveilles-cyan-soft);
+  --color-bg-brand-softest: var(--merveilles-cyan-softest);
+
+  // BORDER
+  --color-border-primary: var(--merveilles-gray-shade-3);
+  --color-border-brand: var(--merveilles-cyan);
+  --color-border-brand-soft: var(--merveilles-cyan-soft);
+
+}
+
+[data-color-scheme='light'] {
+  --merveilles-black: #000;
+  --merveilles-gray-shade-1: #111;
+  --merveilles-gray-shade-1-5: #1a1a1a;
+  --merveilles-gray-shade-2: #222;
+  --merveilles-gray-shade-3: #333;
+  --merveilles-gray-shade-4: #444;
+  --merveilles-gray-shade-5: #555;
+  --merveilles-gray-shade-6: #666;
+  --merveilles-gray-shade-7: #777;
+  --merveilles-gray-shade-8: #888;
+  --merveilles-gray-shade-9: #999;
+  --merveilles-gray-shade-a: #aaa;
+  --merveilles-gray-shade-c: #ccc;
+  --merveilles-gray-shade-d: #ddd;
+  --merveilles-gray-shade-e: #eee;
+  --merveilles-gray-shade-fa: #fafafa;
+  --merveilles-white: #fff;
+  --merveilles-cyan: #72dec2;
+  --merveilles-cyan-dark: #61bfa6;
+  --merveilles-cyan-light: #9ffce3;
+  --merveilles-cyan-soft: #c4ffef;
+  --merveilles-cyan-softest: #e2fff7;
+
+  // TEXT
+  --color-text-primary: var(--merveilles-black);
+  --color-text-secondary: var(--merveilles-gray-shade-2);
+  --color-text-tertiary: var(--merveilles-gray-shade-3);
+  --color-text-inverted: var(--merveilles-white);
+  --color-text-brand: var(--merveilles-cyan-dark);
+  --color-text-brand-soft: var(--merveilles-cyan);
+  --color-text-on-brand-base: var(--merveilles-white);
+  --color-text-brand-on-inverted: var(--merveilles-white);
+  --color-text-disabled: var(--merveilles-gray-shade-6);
+  --color-text-on-disabled: var(--merveilles-gray-shade-9);
+  --color-text-bookmark-highlight: var(--merveilles-cyan-dark);
+  --color-text-favourite-highlight: var(--merveilles-cyan-dark);
+  --color-text-status-links: var(--merveilles-cyan-dark);
+
+  // BACKGROUND
+  // Neutral
+  --color-bg-primary: var(--merveilles-white);
+  --color-bg-secondary: var(--merveilles-gray-shade-fa);
+  --color-bg-tertiary: var(--merveilles-gray-shade-e);
+
+  // Utility
+  --color-bg-inverted: var(--merveilles-black);
+  --color-bg-disabled: var(--merveilles-gray-shade-c);
+
+  // Brand
+  --color-bg-brand-base: var(--merveilles-cyan-dark);
+  --color-bg-brand-base-hover: var(--merveilles-cyan);
+  --color-bg-brand-soft: var(----merveilles-cyan-soft);
+  --color-bg-brand-softest: var(--merveilles-cyan-softest);
+
+  // BORDER
+  --color-border-primary: var(--merveilles-gray-shade-a);
+  --color-border-brand: var(--merveilles-cyan-dark);
+  --color-border-brand-soft: var(--merveilles-cyan-soft);
+}
