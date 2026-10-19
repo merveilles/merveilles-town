@@ -2190,7 +2190,7 @@ pt-PT:
     review_link: Rever termos de serviço
     title: Os termos de serviço de %{domain} estão a ser alterados
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%H:%M em %d de %b de %Y"

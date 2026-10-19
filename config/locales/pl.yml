@@ -2130,7 +2130,7 @@ pl:
     review_link: Przeglądnij Warunki Korzystania
     title: Warunki korzystania z %{domain} zmieniają się
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d. %b %Y, %H:%M"

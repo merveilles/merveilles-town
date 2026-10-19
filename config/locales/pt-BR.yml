@@ -2195,7 +2195,7 @@ pt-BR:
     review_link: Revisar os termos do serviço
     title: Os termos de serviço do %{domain} estão mudando
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%H:%M em %d de %b de %Y"

@@ -2341,7 +2341,7 @@ ga:
     review_link: Athbhreithnigh téarmaí seirbhíse
     title: Tá téarmaí seirbhíse %{domain} ag athrú
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%b %d, %Y, %H:%M"

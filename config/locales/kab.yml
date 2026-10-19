@@ -1132,7 +1132,7 @@ kab:
   terms_of_service:
     title: Tiwtilin n useqdec
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d %b %Y, %H:%M"

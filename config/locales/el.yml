@@ -2192,7 +2192,7 @@ el:
     review_link: Επισκόπηση όρων υπηρεσίας
     title: Οι όροι παροχής υπηρεσιών του %{domain} αλλάζουν
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%b %d, %Y, %H:%M"

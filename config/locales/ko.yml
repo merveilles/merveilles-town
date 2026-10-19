@@ -2119,7 +2119,7 @@ ko:
     review_link: 이용 약관 검토하기
     title: "%{domain} 도메인의 이용 약관에 변경 있음"
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%Y-%m-%d %H:%M"

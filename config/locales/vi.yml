@@ -2146,7 +2146,7 @@ vi:
     review_link: Xem lại điều khoản dịch vụ
     title: Sửa đổi điều khoản dịch vụ %{domain}
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%-d.%m.%Y %H:%M"

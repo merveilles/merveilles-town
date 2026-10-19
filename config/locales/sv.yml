@@ -2195,7 +2195,7 @@ sv:
     review_link: Granska villkoren för tjänsten
     title: Villkoren för tjänsten i %{domain} ändras
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d %b %Y, %H:%M"

@@ -2290,7 +2290,7 @@ be:
     review_link: Прачытаць умовы карыстання
     title: На %{domain} змяняюцца ўмовы карыстання
   themes:
-    default: Mastodon
+    default: Merveilles
   time:
     formats:
       default: "%d.%m.%Y %H:%M"
