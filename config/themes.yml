@@ -3,3 +3,4 @@ default: styles/application.scss
 hometown-pastel: styles/hometown-pastel.scss
 macaron: styles/macaron.scss
 fairy-floss: styles/fairy-floss.scss
+merveilles: styles/merveilles.scss
